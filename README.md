@@ -73,7 +73,7 @@ You should use the `ls_ddpg_main.py` file with the following arguments:
 |-k, --lsddpg	| use LS-DDPG (apply LS-UPDATE every N_DRL), default: false |
 |-j, --boosting| use Boosted-FQI as SRL algorithm, default: false |
 |-y, --path| path to agent checkpoint, for playing |
-|-e, --env| environment to play: MinitaurBulletEnv-v0, BipedalWalker-v2, default="BipedalWalker-v2" |
+|-e, --env| environment to play: MinitaurBulletEnv-v0, BipedalWalker-v3, default="BipedalWalker-v3" |
 |-d, --decay_rate| number of episodes for epsilon decaying, default: 500000 |
 |-o, --optimizer| optimizing algorithm ('RMSprop', 'Adam'), deafult: 'Adam' |
 |--lr_critic| learning rate for the Critic optimizer, default: 0.0001 |
@@ -91,14 +91,14 @@ You should use the `ls_ddpg_main.py` file with the following arguments:
 Agents checkpoints (files ending with `.pth`) are saved and loaded from the `agent_ckpt` directory.
 Playing a pretrained agent for one episode:
 
-`python ls_ddpg_main.py --play -y ./saves/ddpg-agent_BipedalWalker-v2-LS-LAM-10000-100K-BOOSTING-SEED-2019-BATCH-64/best_+316.064_2410000.dat -x ./Videos/`
+`python ls_ddpg_main.py --play -y ./saves/ddpg-agent_BipedalWalker-v3-LS-LAM-10000-100K-BOOSTING-SEED-2019-BATCH-64/best_+316.064_2410000.dat -x ./Videos/`
 
 ## Training
 
 Examples:
 
 * `python ls_ddpg_main.py --train --lsddpg -e MinitaurBulletEnv-v0 -l 1 -b 64`
-* `python ls_ddpg_main.py --train --lsddpg --boosting -e BipedalWalker-v2 -l 10000 -b 64`
+* `python ls_ddpg_main.py --train --lsddpg --boosting -e BipedalWalker-v3 -l 10000 -b 64`
 
 For full description of the flags, see the full API.
 
