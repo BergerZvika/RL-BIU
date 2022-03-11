@@ -10,7 +10,6 @@ Video:
 [YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
 
 
-![minitaur](https://github.com/taldatech/pytorch-ls-ddpg/blob/master/images/minitaur.gif)
 ![bipedal](https://github.com/taldatech/pytorch-ls-ddpg/blob/master/images/bipedal.gif)
 
 ![ddpg](https://github.com/taldatech/pytorch-ls-ddpg/blob/master/images/ddpg_graph.png)
