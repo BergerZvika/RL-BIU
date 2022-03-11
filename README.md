@@ -5,11 +5,6 @@ Based on the paper:
 
 Nir Levine, Tom Zahavy, Daniel J. Mankowitz, Aviv Tamar, Shie Mannor [Shallow Updates for Deep Reinforcement Learning](https://arxiv.org/abs/1705.07461), NIPS 2017
 
-Video:
-
-[YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
-
-
 ![bipedal](https://github.com/taldatech/pytorch-ls-ddpg/blob/master/images/bipedal.gif)
 
 ![ddpg](https://github.com/taldatech/pytorch-ls-ddpg/blob/master/images/ddpg_graph.png)
